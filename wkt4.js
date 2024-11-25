@@ -31,11 +31,9 @@ class ExpenseCalculator extends HTMLElement {
             }
             h1 {
                 color: #333;
-                text-align: center;
             }
             form {
                 display: flex;
-                justify-content: center;
                 margin-bottom: 20px;
             }
             input {
@@ -55,10 +53,8 @@ class ExpenseCalculator extends HTMLElement {
                 list-style-type: none;
             }
             .expense-item {
-               
                 align-items: center;
                 padding: 10px;
-              
             }
             .remove-button {
                 background-color: #53843;
@@ -67,10 +63,6 @@ class ExpenseCalculator extends HTMLElement {
                 padding: 5px 10px;
                 border-radius: 4px;
                 cursor: pointer;
-            }
-            
-            h3 {
-                text-align: center;
             }
         </style>
 `;
